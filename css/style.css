@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 
+    system-ui,
+    -sans-serif
+    line-height: 1.6;
+}
+
+html{
+    font-size: 15px;
+}
+
+/* Nabar */ 
+
+.navbar {
+    background-color: black;
+    color: hsl(0, 13%, 95%);
+    padding: 1rem 0;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* Boton de Haburgesa: Escritorio */
+.menu-toggle {
+    display:  none;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.menu-toggle {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    display: block;
+}
+
+/* Menu de Navegacion */
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.nav-menu a:hover {
+    color: aqua;
+}
+
+/* Contenido principal */
+main {
+    max-width: 1200px;
+    margin: 0 1rem;
+}
+
+/*Media Query para moviles*/
+
+@media (max-width; 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+    
+    .nav-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        flex-direction: column;
+        gap: 0;
+        display: nome;
+    }
+    .nav-menu-active {
+        display: flex;
+    }
+}
+
+* footer {
+    text-align: center;
+    text-size-adjust: 30px;
+    font-size: 19px;
+    
+}
