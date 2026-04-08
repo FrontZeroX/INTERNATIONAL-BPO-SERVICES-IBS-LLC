@@ -6,48 +6,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>INTERNATIONAL BPO SERVICES (IBS) LLC</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+   <link rel="icon" type="image/x-icon" href="img/logo.png">
+     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
-  <!-- Menu Principal -->
+<body>
+ <!-- Menu Principal -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
     <div class="container">
-      <img src="img/Logo.png" alt="Logo IBS" class="img-fluid" style="max-height: 60px;">
-      <a class="navbar-brand fw-bold" href="index.html"> INTERNATIONAL BPO SERVICES (IBS) LLC </a>
+
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
+        <img src="img/logo.png" alt="Logo IBS" style="max-height: 50px;">
+        INTERNATIONAL BPO SERVICES (IBS) LLC
+      </a>
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-        <span class="navbar-toggler-icon"> </span>
+        <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ms-auto align-items-lg-center">
 
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="our_history.html">Our History</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="bi bi-house-door"></i> Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="our_history.html">
+              <i class="bi bi-clock-history"></i> Our History</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">
+              <i class="bi bi-people"></i> About Us</a>
+          </li>
+
+
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">Services</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="contact_cernter.html">Contact Center Services</a>
-              </li>
-              <li><a class="dropdown-item" href="inbound_services.html">Inbound Service</a></li>
-              <li><a class="dropdown-item" href="outbound_services.html">Outbound Services</a>
-              </li>
-              <li><a class="dropdown-item" href="bussiness_marketing.html">Business Marketing Services</a>
-              </li>
-              <li><a class="dropdown-item" href="mission_critical.html">Mission Critical Services</a>
-              </li>
-              <li> <a class="dropdown-item" href="processes_offshore_services.html">Business processes offshore services
-                </a>
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <i class="bi bi-gear"></i> Services
+            </a>
+
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="contact_center.html">
+                  <i class="bi bi-headset me-2"></i>Contact Center Services</a></li>
+              <li><a class="dropdown-item" href="inbound_services.html">
+                  <i class="bi bi-arrow-down-circle me-2"></i>Inbound Services</a></li>
+              <li><a class="dropdown-item" href="outbound_services.html">
+                  <i class="bi bi-arrow-up-circle me-2"></i>Outbound Services</a></li>
+              <li><a class="dropdown-item" href="business_marketing.html">
+                  <i class="bi bi-bullseye me-2"></i>Business Marketing Services</a></li>
+              <li><a class="dropdown-item" href="mission_critical.html">
+                  <i class="bi bi-shield-check me-2"></i>Mission Critical Services</a></li>
+              <li><a class="dropdown-item" href="processes_offshore_services.html">
+                  <i class="bi bi-globe me-2"></i>Offshore Services</a></li>
             </ul>
           </li>
 
           <li class="nav-item ms-lg-3">
-            <a class="btn btn-primary" href="free_quote.html">Free quote</a>
+            <a class="btn btn-primary" href="free_quote.html">Free Quote</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="Contact_Us.html">Contact Us</a>
+            <a class="nav-link" href="Contact_Us.html">
+              <i class="bi bi-envelope"></i> Contact Us</a>
           </li>
 
         </ul>
@@ -57,12 +82,11 @@
 
 
 
-
   <!-- Hero -->
-
   <section class="bg-primary text-white text-center py-5">
     <div class="container">
       <h1 class="display-5 fw-bold">Submit Your Details Below </h1>
+       <img src="img/logo.png" alt="Logo IBS" class="img-fluid" style="max-height: 80px;">
       <h3>and One of Our Specialists Will Get In Contact With You!</h3>
   </section>
 
@@ -85,17 +109,20 @@
 
       <div class="row mb-3">
         <div class="col-md-6">
-          <label class="form-label">Email Address</label>
+          <label class="form-label">
+            <i class="bi bi-envelope"></i> Email Address</label>
           <input type="email" class="form-control" placeholder="Email" required>
         </div>
         <div class="col-md-6">
-          <label class="form-label">Phone Number</label>
+          <label class="form-label">
+            <i class="bi bi-telephone"></i> Phone Number</label>
           <input type="tel" class="form-control" placeholder="Phone" required>
         </div>
       </div>
 
       <div class="mb-3">
-        <label class="form-label">Country Where Company Is Located</label>
+        <label class="form-label">
+         <i class="bi bi-geo-alt"></i> Country Where Company Is Located</label>
         <select class="form-select" name="country" required>
           <option value="">Select your country</option>
           <option value="United States">🇺🇸 United States</option>
@@ -151,17 +178,18 @@
           <option value="Ukraine">🇺🇦 Ukraine</option>
           <option value="Russia">🇷🇺 Russia</option>
           <option value="Other">🌎 Other</option>
-
-          v
       </div>
   </div>
+
   <div class="mb-3">
-    <label class="form-label">Company Name</label>
+    <label class="form-label">
+      <i class="bi bi-building"></i> Company Name</label>
     <input type="text" class="form-control" placeholder="Company Name">
   </div>
 
   <div class="mb-3">
-    <label class="form-label">Company Address</label>
+    <label class="form-label">
+      <i class="bi bi-geo-alt"></i> Company Address</label>
     <input type="text" class="form-control" placeholder="Company Address">
   </div>
 
@@ -180,7 +208,7 @@
     <label class="form-label">
       What type of services you are looking for? Please be as specific as possible.
     </label>
-    <small class="text-muted d-block mb-2">
+    <small class="text-muted d-block mb-2 text-white-60">
       Examples: Telephone Answering, Appointment Scheduling, Customer Service Call Handling,
       Help Desk Services, Dispatching Services, Medical Office Answering, Order Entry and Processing Services,
       Virtual Receptionist, Telemarketing Services, Appointment Setting, Follow Up Calls,
@@ -192,7 +220,6 @@
       <input type="text" class="form-control" placeholder="Enter your answer here">
     </div>
   </div>
-
 
   <div class="mb-3">
     <label class="form-label">What is your #1 challenge to growing your company right now?</label>
@@ -216,7 +243,7 @@
 
 
 <!-- Footer -->
-<footer class="pt-5 pb-0 text-white" style="background:#1f2630;">
+<footer class="pt-5 pb-0 text-white">
   <div class="container">
     <div class="border-top border-secondary mb-4"></div>
 
@@ -262,17 +289,32 @@
         </ul>
       </div>
 
-    <div class="text-center mt-3 py-3" style="background:#19202a;">
+    <div class="text-center mt-3 py-3">
       <small class="text-white-">
         © 2026 INTERNATIONAL BPO SERVICES (IBS) LLC — All rights reserved.
       </small>
     </div>
   </footer>
-  
+
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
+</html>lass="fw-semibold">Legal</h6>
+        <ul class="list-unstyled small">
+          <li><a href="#" class="text-white-60 text-decoration-none">Legal notice</a></li>
+          <li><a href="#" class="text-white-60 text-decoration-none">Privacy Policy</a></li>
+          <li><a href="#" class="text-white-60 text-decoration-none">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+    <div class="text-center mt-3 py-3">
+      <small class="text-white-">
+        © 2026 INTERNATIONAL BPO SERVICES (IBS) LLC — All rights reserved.
+      </small>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
 </html>
