@@ -122,17 +122,17 @@ section .col-md-3 h5 {
 footer {
     background: #020617;
     color: white;
+     font-size: 18px;
 }
 
 .text-white-60 {
     color: white !important;
-
-footer h6 {
-    color: #fff;
+    font-size: 18px;
 }
 
 .text-white-60 {
     color: rgb(255, 252, 252);
+     font-size: 18px;
 }
 
 footer a:hover {
