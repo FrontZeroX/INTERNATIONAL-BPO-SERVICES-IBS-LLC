@@ -4,6 +4,7 @@ body {
     font-family: 'Inter', sans-serif;
      background: #020617 !important;
     color: #ffffff;
+    font-size: 17px;
 }
 
 /* NAVBAR */
@@ -11,11 +12,13 @@ body {
     background: rgba(134, 0, 0, 0.6) !important;
     backdrop-filter: blur( 10px);
     border-bottom: 1px solid rgba(26, 10, 53, 0.4);
+    font-size: 17px;
 }
 
 .navbar-brand {
     color: #ffffff !important;
     font-weight: 600;
+    font-size: 17px;
 }
 
 .nav-link {
