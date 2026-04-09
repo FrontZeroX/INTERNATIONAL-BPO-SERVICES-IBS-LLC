@@ -154,3 +154,8 @@ footer a:hover {
 .text-muted {
     color: white !important;    
 }
+
+.navbar-toggler {
+  background-color: #7c3aed !important;
+  border: none;
+}
